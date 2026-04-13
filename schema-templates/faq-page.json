@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+          {
+                  "@type": "Question",
+                  "name": "Your first FAQ question here?",
+                  "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Your answer here. Keep it clear, concise, and include relevant keywords naturally."
+                  }
+          },
+          {
+                  "@type": "Question",
+                  "name": "Your second FAQ question here?",
+                  "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Your answer here. You can include HTML formatting in the text field."
+                  }
+          },
+          {
+                  "@type": "Question",
+                  "name": "How does your service work?",
+                  "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Explain your service step-by-step to help users and search engines understand your offering."
+                  }
+          },
+          {
+                  "@type": "Question",
+                  "name": "What are your pricing options?",
+                  "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Describe pricing tiers. Being transparent about pricing builds trust."
+                  }
+          }
+    ]
+}
