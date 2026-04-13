@@ -1,0 +1,52 @@
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Your Business Name",
+    "image": "https://yoursite.com/logo.png",
+    "description": "Brief description of your business and what you offer.",
+    "@id": "https://yoursite.com",
+    "url": "https://yoursite.com",
+    "telephone": "+1-555-123-4567",
+    "email": "contact@yoursite.com",
+    "priceRange": "$$",
+    "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Main Street",
+          "addressLocality": "Your City",
+          "addressRegion": "Your State",
+          "postalCode": "12345",
+          "addressCountry": "US"
+    },
+    "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7128,
+          "longitude": -74.006
+    },
+    "openingHoursSpecification": [
+          {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                  "opens": "09:00",
+                  "closes": "17:00"
+          }
+    ],
+    "sameAs": [
+          "https://www.facebook.com/yourbusiness",
+          "https://www.linkedin.com/company/yourbusiness",
+          "https://twitter.com/yourbusiness"
+    ],
+    "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services",
+          "itemListElement": [
+                  {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Service Name",
+                                        "description": "Description of the service you offer."
+                            }
+                  }
+          ]
+    }
+}
